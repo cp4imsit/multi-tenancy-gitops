@@ -32,4 +32,4 @@ spec:
           ## The location of the banner. Options: BannerTop, BannerBottom, BannerTopBottom
           location: BannerTop
           ## The text that should be displayed in the banner. This value is required for the banner to be created
-          text: "This is the CP4I Demo Instance"
+          text: "This is the CP4I Demo Instance - change this value via gitOps"
