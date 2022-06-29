@@ -651,8 +651,8 @@ spec:
     openShiftOAuth: true
     resources:
       limits:
-        cpu: 500m
-        memory: 256Mi
+        cpu: 1024m
+        memory: 512Mi
       requests:
         cpu: 250m
         memory: 128Mi
@@ -660,8 +660,8 @@ spec:
     enabled: false
     resources:
       limits:
-        cpu: 500m
-        memory: 256Mi
+        cpu: 1024m
+        memory: 512Mi
       requests:
         cpu: 250m
         memory: 128Mi
@@ -670,8 +670,8 @@ spec:
   redis:
     resources:
       limits:
-        cpu: 500m
-        memory: 256Mi
+        cpu: 1024m
+        memory: 512Mi
       requests:
         cpu: 250m
         memory: 128Mi

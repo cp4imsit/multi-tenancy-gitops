@@ -25,7 +25,7 @@ spec:
               name: ibm-ace
               subscription:
                 channel: v1.5
-                installPlanApproval: Automatic
+                installPlanApproval: Manual
                 name: ibm-appconnect
                 source: ibm-operator-catalog
                 sourceNamespace: openshift-marketplace
