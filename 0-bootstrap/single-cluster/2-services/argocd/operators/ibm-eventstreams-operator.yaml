@@ -24,7 +24,7 @@ spec:
             ibmeventstreams:
               name: ibm-eventstreams
               subscription:
-                channel: v3.0
+                channel: v2.5
                 installPlanApproval: Automatic
                 name: ibm-eventstreams
                 source: ibm-operator-catalog

@@ -16,7 +16,7 @@ spec:
       prune: true
       selfHeal: true
   destination:
-    namespace: tools
+    namespace: apic
     server: https://kubernetes.default.svc
   project: services
   source:
@@ -25,7 +25,7 @@ spec:
       values: |
         ibm-apic-instance:
           ibmapicinstance:
-            name: apic-cluster
+            name: apic10
             spec:
               license:
                 accept: true
