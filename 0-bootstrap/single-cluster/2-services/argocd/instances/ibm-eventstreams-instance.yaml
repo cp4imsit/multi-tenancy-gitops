@@ -29,7 +29,7 @@ spec:
             spec:
               security:
                 internalTls: 'TLSv1.2'
-              version: 10.5.0
+              version: 11.0.2
               license:
                 # By installing this product you accept the license terms at https://ibm.biz/es-license
                 accept: true
